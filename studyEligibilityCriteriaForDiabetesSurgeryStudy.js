@@ -185,7 +185,11 @@ const studyEligibilityCriteriaForDiabetesSurgeryStudy = {
     {
       "description": "Body Mass Index (BMI) ≥ 30.0 kg/m2 and ≤ 39.9 kg/m2 at eligibility visit.",
       "exclude": false,
-      "definitionByTypeAndValue": {
+      "definitionExpression": {
+        "name": "FOI32120checkBmi30399",
+        "language": "text/javascript"
+      },
+    "definitionByTypeAndValue": {
         "type": {
           "coding": [
             {
