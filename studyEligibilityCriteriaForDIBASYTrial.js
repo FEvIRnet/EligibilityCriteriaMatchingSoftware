@@ -1,5 +1,5 @@
 //StudyEligibilityCriteria: Eligibility Criteria for DIBASY Trial
-//derived from hhttps://fevir.net/resources/EvidenceVariable/33460
+//derived from https://fevir.net/resources/EvidenceVariable/33460
 const studyEligibilityCriteriaForDIBASYTrial = {
   "resourceType": "EvidenceVariable",
   "id": "33460",
