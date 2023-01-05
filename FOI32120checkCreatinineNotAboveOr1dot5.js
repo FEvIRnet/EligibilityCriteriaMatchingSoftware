@@ -1,5 +1,5 @@
-const FOI32120checkHbA1cNotAboveOr14 = (bundledResourcesArray) => {
-  let descriptor = "check if NOT HbA1c ≥ 14.0%";
+const FOI32120checkCreatinineNotAboveOr1dot5 = (bundledResourcesArray) => {
+  let descriptor = "check if NOT Creatinine ≥ 1.5 mg/dL";
   let bmiObservationResources = [];
   for (const resource of bundledResourcesArray) {
     if (resource.resourceType === "Observation") {
@@ -43,4 +43,4 @@ const FOI32120checkHbA1cNotAboveOr14 = (bundledResourcesArray) => {
   return { "result": "Undetermined", "descriptor": descriptor }
 }
 
-export default FOI32120checkHbA1cNotAboveOr14
+export default FOI32120checkCreatinineNotAboveOr1dot5

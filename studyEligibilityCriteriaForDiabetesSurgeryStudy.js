@@ -59,7 +59,11 @@ const studyEligibilityCriteriaForDiabetesSurgeryStudy = {
     {
       "description": "Diagnosed with T2DM at least 6 months prior to enrollment, under the active care of a doctor for at least the six months prior to enrollment, and HbA1c ≥ 8.0%.",
       "exclude": false,
-      "definitionByCombination": {
+      "definitionExpression": {
+        "name": "FOI32120checkDiabetesAndHbA1cAboveOr8",
+        "language": "text/javascript"
+      },
+   "definitionByCombination": {
         "code": "all-of",
         "characteristic": [
           {
