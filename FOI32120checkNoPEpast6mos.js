@@ -1,4 +1,4 @@
-const FOI32120checkPEpast6mos = (bundledResourcesArray) => {
+const FOI32120checkNoPEpast6mos = (bundledResourcesArray) => {
   let descriptor = "check if no pulmonary embolism in past 6 months";
   //this code only checks for any presence of pulmonary embolism and does not yet check for occurrence in last 6 months
   let conditionResources = [];
@@ -31,4 +31,4 @@ const FOI32120checkPEpast6mos = (bundledResourcesArray) => {
   return { "result": "MATCH", "descriptor": descriptor };
 }
 
-export default FOI32120checkPEpast6mos
+export default FOI32120checkNoPEpast6mos

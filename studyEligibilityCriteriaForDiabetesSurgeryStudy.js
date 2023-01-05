@@ -410,7 +410,7 @@ const studyEligibilityCriteriaForDiabetesSurgeryStudy = {
     {
       "description": "Pulmonary embolus in the past six months.",
       "definitionExpression": {
-        "name": "FOI32120checkPEpast6mos",
+        "name": "FOI32120checkNoPEpast6mos",
         "language": "text/javascript"
       },
       "definitionByTypeAndValue": {
@@ -467,7 +467,7 @@ const studyEligibilityCriteriaForDiabetesSurgeryStudy = {
       "description": "Thrombophlebitis in the past six months.",
       "exclude": true,
       "definitionExpression": {
-        "name": "FOI32120checkThrombophlebitisPast6mos",
+        "name": "FOI32120checkNoThrombophlebitisPast6mos",
         "language": "text/javascript"
       },
       "definitionByTypeAndValue": {
