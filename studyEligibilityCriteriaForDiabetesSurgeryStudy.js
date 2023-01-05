@@ -189,7 +189,7 @@ const studyEligibilityCriteriaForDiabetesSurgeryStudy = {
         "name": "FOI32120checkBmi30399",
         "language": "text/javascript"
       },
-    "definitionByTypeAndValue": {
+      "definitionByTypeAndValue": {
         "type": {
           "coding": [
             {
@@ -409,6 +409,10 @@ const studyEligibilityCriteriaForDiabetesSurgeryStudy = {
     },
     {
       "description": "Pulmonary embolus in the past six months.",
+      "definitionExpression": {
+        "name": "FOI32120checkPEpast6mos",
+        "language": "text/javascript"
+      },
       "definitionByTypeAndValue": {
         "type": {
           "coding": [
@@ -462,6 +466,10 @@ const studyEligibilityCriteriaForDiabetesSurgeryStudy = {
     {
       "description": "Thrombophlebitis in the past six months.",
       "exclude": true,
+      "definitionExpression": {
+        "name": "FOI32120checkThrombophlebitisPast6mos",
+        "language": "text/javascript"
+      },
       "definitionByTypeAndValue": {
         "type": {
           "coding": [
@@ -680,6 +688,10 @@ const studyEligibilityCriteriaForDiabetesSurgeryStudy = {
     },
     {
       "description": "Serum creatinine ≥ 1.5 mg/dl",
+      "definitionExpression": {
+        "name": "FOI32120checkCreatinineNotAboveOr1dot5",
+        "language": "text/javascript"
+      },
       "definitionByTypeAndValue": {
         "type": {
           "coding": [
@@ -702,6 +714,10 @@ const studyEligibilityCriteriaForDiabetesSurgeryStudy = {
     },
     {
       "description": "HbA1c ≥ 14.0%",
+      "definitionExpression": {
+        "name": "FOI32120checkHbA1cNotAboveOr14",
+        "language": "text/javascript"
+      },
       "definitionByTypeAndValue": {
         "type": {
           "coding": [
