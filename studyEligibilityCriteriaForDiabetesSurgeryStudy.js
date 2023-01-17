@@ -63,7 +63,7 @@ const studyEligibilityCriteriaForDiabetesSurgeryStudy = {
         "name": "FOI32120checkDiabetesAndHbA1cAboveOr8",
         "language": "text/javascript"
       },
-   "definitionByCombination": {
+      "definitionByCombination": {
         "code": "all-of",
         "characteristic": [
           {
@@ -264,6 +264,10 @@ const studyEligibilityCriteriaForDiabetesSurgeryStudy = {
     {
       "description": "Cardiovascular event (myocardial infarction, acute coronary syndrome, coronary artery angioplasty or bypass, stroke) in the past six months.",
       "exclude": true,
+      "definitionExpression": {
+        "name": "FOI32120checkExcludeCardiovascularEvent",
+        "language": "text/javascript"
+      },
       "timeFromEvent": [
         {
           "description": "in the past six months",
@@ -662,6 +666,10 @@ const studyEligibilityCriteriaForDiabetesSurgeryStudy = {
     {
       "description": "Significant anemia (hemoglobin 1.0 g or more below normal range)",
       "exclude": true,
+      "definitionExpression": {
+        "name": "FOI32120checkHbNot1OrMoreBelowLNL",
+        "language": "text/javascript"
+      },
       "definitionByTypeAndValue": {
         "type": {
           "coding": [
