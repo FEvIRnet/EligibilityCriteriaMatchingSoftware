@@ -1,5 +1,5 @@
 //StudyEligibilityCriteria: Obese patients ≥ 18 years old
-//derived from hhttps://fevir.net/resources/EvidenceVariable/49218
+//derived from https://fevir.net/resources/EvidenceVariable/49218
 const studyEligibilityCriteriaForObeseAdult = {
   "resourceType": "EvidenceVariable",
   "id": "49218",
